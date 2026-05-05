@@ -18,7 +18,7 @@ SYMBOL = "BTC/USDT"
 TIMEFRAME = "15m"
 
 # ===== EXCHANGE =====
-exchange = ccxt.binance()
+exchange = ccxt.bybit()
 
 # ===== GET DATA =====
 def get_data():
