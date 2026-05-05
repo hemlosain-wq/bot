@@ -18,7 +18,7 @@ SYMBOL = "BTC/USDT"
 TIMEFRAME = "15m"
 
 # ===== EXCHANGE =====
-exchange = ccxt.bybit()
+exchange = ccxt.kucoin()
 
 # ===== GET DATA =====
 def get_data():
